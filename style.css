@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Gluten', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Vollkorn', serif;
+}
+.heading{
+    color : whitesmoke;
+    text-align: center;
+    margin: 20px;
+
+}
+.container{
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.weather-items{
+    color : whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.sub-head{
+    color: black;
+}
+.location-name{
+   display: flex;
+   flex-direction: column;
+}
+.location-name .timezone-name{
+    margin-top: 30px;
+}
+.temperature-degree{
+    margin-top : 50px;
+    margin-bottom : 50px;
+    display: flex;
+    justify-content: space-between;
+}
